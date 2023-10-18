@@ -12,8 +12,10 @@ def procesar_mensaje():
 
     # Por ahora, vamos a simular una respuesta
     respuesta = "Respuesta simulada de OpenAI"
-
+    print(f"Mensaje: {mensaje}")
+    print("solicitud recibida!!!!!!!!!!!")
     return jsonify({"respuesta": respuesta})
 
 if __name__ == '__main__':
     app.run()
+
