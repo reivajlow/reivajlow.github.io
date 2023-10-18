@@ -1,0 +1,19 @@
+name: Crawl_web
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10  # or 3.6 if you prefer
+  - pandas
+  - numpy
+  - openai
+  - streamlit
+  - langchain
+  - nltk
+  - flask
+  
+# Información de documentación
+# Autor: Javier Saavedra
+# Descripción: Entorno virtual para mi proyecto de asistente de chat en Python.
+# Fecha de creación: 16-10-2023
+# Versión: 1.0
